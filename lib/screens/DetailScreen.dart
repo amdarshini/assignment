@@ -150,7 +150,7 @@ class _DetailScreenState extends State<DetailScreen> {
             content: Text("Thank you for your order"),
             actions: <Widget>[
               FlatButton(
-                child: new Text("Yes", style: TextStyle(color: Colors.blue)),
+                child: new Text("Yes", style: TextStyle(color: Colors.green)),
                 onPressed: () {
                   // exit(0);
                   Fluttertoast.showToast(
@@ -168,7 +168,7 @@ class _DetailScreenState extends State<DetailScreen> {
                 },
               ),
               FlatButton(
-                child: new Text("No", style: TextStyle(color: Colors.blue)),
+                child: new Text("No", style: TextStyle(color: Colors.green)),
                 onPressed: () {
                   Navigator.of(context).pop(false);
                 },
