@@ -21,7 +21,6 @@ class _MainFruitScreenState extends State<MainFruitScreen>
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
   }
 

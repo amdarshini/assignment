@@ -22,10 +22,10 @@ class FruitModel {
   
   FruitModel(
       name: "Banana",
-      id: 0,
+      id: 2,
       price: "50",
       available: 1,
-      totalAvailable: 45,
+      totalAvailable: 1,
       vendor: "Himachal Pvt Ltd",
       category: "Fruits",
       imagUrl:
@@ -33,9 +33,9 @@ class FruitModel {
  
   FruitModel(
       name: "Orange",
-      id: 1,
+      id: 4,
       price: "25",
-      totalAvailable: 9,
+      totalAvailable: 1,
       available: 1,
       vendor: "Nagpur farms",
       category: "Fruits",

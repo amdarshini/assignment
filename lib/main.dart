@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:assignment/screens/DetailScreen.dart';
 import 'package:assignment/screens/MainFruitScreen.dart';
 import 'package:flutter/material.dart';
 
@@ -7,7 +8,6 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => SplashScreen(),
-        '/second': (context) => MainFruitScreen(),
+        '/mainScreen': (context) => MainFruitScreen(),
+        '/detailScreen': (context) => DetailScreen(),
       },
     );
   }
@@ -33,7 +34,7 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
     Timer(
       Duration(seconds: 4),
-      () => Navigator.pushNamed(context, '/second'),
+      () => Navigator.pushNamed(context, '/mainScreen'),
     );
   }
 
